@@ -44,10 +44,12 @@ body {
      object-fit: cover;
      cursor: pointer;
 }
+.modal {
+     padding: 0px 15px;
+}
  .modal img {
      width: 100%;
-     max-width: 600px;
-     height: min-content;
+     height: auto;
      margin: 10px 0px;
      object-fit: cover;
      cursor: pointer;
