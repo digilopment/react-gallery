@@ -1,0 +1,55 @@
+body {
+     margin: 0px;
+}
+ .App-header {
+     background-color: #282c34;
+     min-height: 10vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+}
+ .App-link {
+     color: #61dafb;
+}
+ .gallery{
+     width: 100%;
+     max-width: initial;
+}
+ .clear{
+     clear:both 
+}
+ .content{
+     margin: 0px auto;
+     max-width: 950px;
+     text-align: center;
+}
+ .prew{
+     text-align: center;
+     overflow-x: auto;
+     white-space: nowrap;
+}
+ .prew img.selected {
+     border: 3px solid #61dafb;
+}
+ .prew img{
+     border: 3px solid #fff;
+}
+ .gallery img {
+     width: auto;
+     height: 50px;
+     margin: 10px;
+     object-fit: cover;
+     cursor: pointer;
+}
+ .modal img {
+     width: 100%;
+     max-width: 600px;
+     height: min-content;
+     margin: 10px 0px;
+     object-fit: cover;
+     cursor: pointer;
+}
+ 
